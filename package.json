@@ -7,8 +7,8 @@
     "recreate-dist": "rm -Rf dist",
     "stylelint": "stylelint \"**/*.scss\"",
     "stylelint:fix": "stylelint \"**/*.scss\" --fix",
-    "dev": "pnpm run recreate-dist && parcel -p 3000 --open chrome",
-    "build": "pnpm run recreate-dist && parcel build",
+    "dev": "npm run recreate-dist && parcel -p 4000 --open chrome",
+    "build": "npm run recreate-dist && parcel build",
     "fmt": "prettier --write \"**/*.js\" \"**/*.json\" \"**/*.md\" \"**/*.ts\""
   },
   "dependencies": {
